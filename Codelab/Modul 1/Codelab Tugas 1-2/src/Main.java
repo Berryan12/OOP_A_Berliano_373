@@ -29,7 +29,7 @@ public class Main {
         System.out.print("Enter password: ");
         String password = scanner.nextLine();
 
-        // Replace "010" with the last 3 digits of your student ID
+        
         if (username.equals("Admin010") && password.equals("Password010")) {
             System.out.println("Admin login successful!");
         } else {
@@ -44,7 +44,7 @@ public class Main {
         System.out.print("Enter student ID: ");
         String studentID = scanner.nextLine();
 
-        // Replace "Ken Aryo Bimantoro" and "202310370311006" with your name and student ID
+        
         if (name.equals("Ken Aryo Bimantoro") && studentID.equals("202310370311006")) {
             System.out.println("Student Login Successful!");
             System.out.println("Name: " + name);
